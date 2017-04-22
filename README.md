@@ -1,4 +1,7 @@
-# test coverage for  [co-mysql (v1.0.0)](https://github.com/coderhaoxin/co-mysql)  [![npm package](https://img.shields.io/npm/v/npmtest-co-mysql.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co-mysql) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co-mysql.svg)](https://travis-ci.org/npmtest/node-npmtest-co-mysql)
+# npmtest-co-mysql
+
+#### basic test coverage for  [co-mysql (v1.0.0)](https://github.com/coderhaoxin/co-mysql)  [![npm package](https://img.shields.io/npm/v/npmtest-co-mysql.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co-mysql) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co-mysql.svg)](https://travis-ci.org/npmtest/node-npmtest-co-mysql)
+
 #### a mysql wrapper for co or koa
 
 [![NPM](https://nodei.co/npm/co-mysql.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/co-mysql)
@@ -90,7 +93,8 @@
         "test-cov": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -R dot -t 5000 test/*.js",
         "test-travis": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- -R dot -t 5000 test/*.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
